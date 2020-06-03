@@ -41,7 +41,14 @@ class App extends React.Component {
   componentWillUnmount(){
     this.unsubscribeFromAuth()
   }
-
+  /* FOR LATER!!!!
+    
+          <Route exact path='/hats'/ component={HatsPage}>
+          <Route exact path='/jackets' component={JacketsPage}/>
+          <Route exact path='/sneakers' component={SneakersPage}/>
+          <Route exact path='/womens' component={WomensPage}/>
+          <Route exact path='/mens' component={MensPage}/>
+  */
   render(){
     return (
       <div>
